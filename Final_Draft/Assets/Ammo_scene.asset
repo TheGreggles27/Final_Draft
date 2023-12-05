@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Ammo_scene
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-353.0,"y":-105.0},"guid":"bc9c9068-c971-47f3-ac1c-a6600355d92c","$version":"A","$type":"Unity.VisualScripting.Start","$id":"9"},{"kind":"Scene","defaultValues":{"name":{"$content":"Ammo","$type":"System.String"}},"position":{"x":-200.0,"y":-109.0},"guid":"b3fe443b-550f-40c4-90ee-a877c10b1682","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"type":"System.Int32","value":{"$content":20,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-384.0,"y":27.0},"guid":"3bc4cab3-9b43-4b41-b35f-d9224d10a613","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"5744d7fc-b356-4e96-b8ce-09022f7f59da","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"d1d13edc-f32f-43b6-90ad-a6768a092ac1","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
